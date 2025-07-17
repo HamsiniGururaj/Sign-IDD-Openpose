@@ -22,7 +22,8 @@ https://arxiv.org/abs/2412.13609
 ## Evaluation
 - The model is evaluated using various metrics like BLEU scores, ROUGE score, WER, FID, DTW, MPJPE and MPJAE the code for all of which is in the helper and eval_helpers modules
 - For calculating the NLP metrics BLEU score, ROUGE score and WER, we use the backtranslator Sign-IDD SLT
-- The implementation for this backtranslator can be found in the following repository: https://github.com/Rathna-1989/SLT
+- The implementation for this backtranslator can be found in the following repository:
+  https://github.com/HamsiniGururaj/Sign-IDD-Openpose-SLT
 - The backtranslator converts the predicted skels of Sign IDD back into gloss sequences
 - These predicted gloss sequences are compared with the ground truth glosses to evaluate the interpretability of the produced poses
 
